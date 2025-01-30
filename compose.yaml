@@ -1,0 +1,12 @@
+
+services:
+  webserver:
+   image: httpd
+   ports:
+     - 80:80
+  tomserver:
+   image: surajbele/tomcat:java_base
+   ports:
+     - 8080:8080
+  
+     
